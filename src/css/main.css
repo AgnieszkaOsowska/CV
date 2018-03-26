@@ -1,0 +1,298 @@
+
+.papershit {
+    width:50%;
+    height:100%;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #3D3F40;
+    color: white;
+}
+body {
+    width:100%;
+    height:100%;
+    background-color:grey;
+    
+}
+.content {
+    width: 70%;
+    height: 100%;
+    float:left;
+}
+.info {
+    width: 30%;
+    height: 100%;
+    float: left;
+    background-color: #E6E9EB;
+}
+h1{
+    padding: 20px;
+    font-family: 'Slabo 27px', serif;
+    margin: 0%;
+    padding-left: 50px;
+    letter-spacing: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 10s steps(60, end); 
+  }   
+  @keyframes type{ 
+    from { width: 0; } 
+  } 
+h2 {
+    border-bottom: 1px solid black;
+    margin-top: 50px;   
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.data {
+    margin-left:20px;
+    margin-right: 30px;
+    font-family: 'Dosis', sans-serif;
+    overflow: hidden;
+}
+div.data:nth-child(1){
+    margin-top: 20px;
+}
+ol {
+    list-style-type: none;
+}
+.lista {
+    margin-left:-20px;
+    margin-right: 10px;
+}
+.rok {
+    font-weight: bold;
+    width:25%;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+.dzialalnosc {
+    width: 75%;
+    float: left;
+    line-height: 22px;
+}
+.tabela {
+    border: 1px solid #FFE8B6;
+    border-collapse: collapse;
+    padding-left: 50px;
+    margin: auto;
+    margin-top: 30px;
+    width: 92%;
+}
+.tabela td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+th,
+td {
+    border: 1px solid white;
+}
+#t2 {
+    margin-top: 0px;
+}
+#t2 th {
+    border-top-style: hidden;
+}
+#t1 td,
+#t2 td {
+    border: none;
+}
+.korektaRamkiL {
+    border-left: 1px solid #FFE8B6;
+}
+.korektaRamkiR {
+    border-right: 1px solid #FFE8B6;
+}
+.znam {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #FFE8B6;
+    margin: auto;
+}
+th {
+    background-color: #FFE8B6;
+    font-weight: normal;
+}
+tr:hover {
+    background-color: #E6E9EB;
+}
+
+#show {
+    float: left;
+    clear: both;
+    margin-left: 5%;
+    margin-bottom: 40px;
+    width: 180px;
+}
+.button {
+    font-family: 'Slabo 27px', serif;
+    background-color: #FFE8B6;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px;
+    font-weight: bold;
+}
+.button:hover {
+    background-color: grey;
+    color: white;
+    border-color: grey;
+}
+legend {
+    clear: both;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+fieldset {
+    border: none;
+    background-color: #E6E9EB;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 92%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+label {
+    width: 30%;
+    margin-left: 2%;
+    float: left;
+    clear: left;
+    font-family: 'Slabo 27px', serif;
+    letter-spacing: 1px;
+}
+#nadLab {
+    margin-top:32px;
+}
+#mailLab,
+#telLab,
+#trLab {
+    margin-top:45px;
+}
+input,
+textarea {
+    width: 60%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 5%;
+    padding: 0px;
+    border: none;
+    border: 1px solid grey;
+    box-shadow: 2px 2px 4px;
+}
+input {
+    height: 28px;
+}
+input:focus {
+    border: none;
+}
+
+textarea {
+    resize: vertical;
+}
+.fill {
+    height: 0.5px;
+    color: red;
+    font-family: 'Slabo 27px', serif;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 60%;
+    float: right;
+    margin-top: 5px;
+    margin-right: 5%;
+    padding: 0px;
+}
+#wyslij {
+    width: 20%;
+    float: right;
+    clear: both;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#klauzula {
+    width: 90%;
+    clear: left;
+    margin: 10% 5% 0% 5%;
+    padding-bottom: 5px;
+    font-style: italic;
+    border-top: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.photo {   
+    margin-top: 30px;
+}
+#foto {
+   width: 76%;
+   margin-left: 12%;
+   margin-right: 12%;
+   margin-top: 20px;
+}
+.mainData,
+.socialMedia,
+.gitHub {
+    margin-left: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    float: left;
+}
+.info h2 {
+    width: 230px;
+}
+#fb {
+    width: 20%;
+}
+#linkedIn {
+    width: 40%;
+}
+#gitHub {
+    width: 15%;
+    margin-left: 10px;
+}
+.kursywaB {
+    font-family: mojaKursywa2;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.kursywa {
+    font-family: mojaKursywa2;
+    font-size: 22px;
+    font-weight: normal;
+}
+#adressEmail {
+  letter-spacing: normal;
+}
+#f,
+#komunikat {
+    margin-left: 140px;
+    font-family: 'Slabo 27px', serif;
+}
+#komunikat {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+#f {
+    margin-bottom: 40px;
+}

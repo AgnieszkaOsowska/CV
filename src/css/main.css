@@ -281,8 +281,9 @@ textarea {
     font-size: 22px;
     font-weight: normal;
 }
-#adressEmail {
+.bezOdst {
   letter-spacing: normal;
+  font-size: 20px;
 }
 #f,
 #komunikat {

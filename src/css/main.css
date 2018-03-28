@@ -1,4 +1,7 @@
 
+* {
+    box-sizing: border-box;
+}
 .papershit {
     width:50%;
     height:100%;
